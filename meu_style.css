@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+header{
+    height: 300px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    padding-top: 80px;
+}
+.clear{
+    clear: both;
+}
+div.foto-box{
+    width: 30%;
+    float: left;
+}
+div.foto-perfil{
+    width: 300px;
+    height: 300px;
+    background-image: url('foto.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid red;
+    float: right;
+}
+div.texto-perfil{
+    margin-top: 40px;
+    width: 70%;
+    height: 150px;
+    float: left;
+}
+div.texto-perfil h2{
+    float: left;
+    margin-left: 25px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+div.texto-perfil span{
+    font-weight: normal;
+}
+div.texto-perfil p{
+    float: left;
+    width: 530px;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
